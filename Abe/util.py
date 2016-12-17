@@ -21,7 +21,7 @@
 
 import re
 import base58
-import Crypto.Hash.SHA256 as SHA256
+import sha256 as SHA256
 
 try:
     import Crypto.Hash.RIPEMD as RIPEMD160
